@@ -1,0 +1,33 @@
+/* Styles go here */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-shadow: 0 -1px rgba(0, 0, 0, .5);
+  }
+  h3{
+    text-align: center
+  }
+  #page {
+    margin: 70px auto;
+    background: rgba(255, 255, 255, .98);
+    background-color: #fff;
+    height: 300px;
+    width: 40%;
+    opacity: 0.9;
+    background: transparent;
+  }
+  #page ul {
+    list-style: none;
+    position: relative;
+    display: block;
+  }
+  #title{
+    -webkit-box-shadow: 0 -3px 8px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 -3px 8px rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    margin:0 auto;
+    color: #3b5998;
+    text-align:center;
+  }

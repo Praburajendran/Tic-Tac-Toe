@@ -1,0 +1,11 @@
+<h3> You are playing against Computer. Click any cell to start</h3>
+
+<div id="page">
+  <ul>
+    <!-- Square components creating using for loop -->
+      <app-square *ngFor="let cell of squareArr" [clickedIndex]="cell" (clickEvent)=clickHandler($event)></app-square>
+  </ul>
+</div>
+
+<!-- Play Again Component -->
+<app-play-again (playAgainEvent)=playAgainHandler($event) [gameWon]="gameWon"></app-play-again>
